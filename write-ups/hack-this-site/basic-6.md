@@ -16,7 +16,7 @@ We noticed the first character wasn't changing. Then realized the second letter 
 
 We'll call this cypher a "incremental off by one"
 
-To reverse this, we'll decrement each character in a string by its index. As the question asks, we're to decrypt the string `c8e49=<@`. Instead of doing this by hand, we wrote the following script, which is in basic-y.py:
+To reverse this, we'll decrement each character in a string by its index. As the question asks, we're to decrypt the string `c8e49=<@`. Instead of doing this by hand, we wrote the following script, which is in basic-6.py:
 
 ```
 import sys
