@@ -3,6 +3,7 @@
 
 https://www.hackthissite.org/missions/basic/6/
 
+(to see a live version check out this [jsfiddle](https://jsfiddle.net/t3h2mas/sousuc9c/4/))
 
 Our first thought was to enter in some random strings and write their cyphered versions down, hoping to observe a pattern. The strings we tried are as follows
 
