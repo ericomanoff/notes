@@ -1,0 +1,7 @@
+# Browser
+
+
+https://backdoor.sdslabs.co/challenges/BRWSR
+
+
+For this challenge we are directed to a page where the flag is placed in plain text. However we can only see the flag if we are using a specific browser developed by a company named SDSLabs. The browser is internal however. Ouch! We some how need to spoof the browser. Enter curl! Curl has a parameter to specify a user agent. Thus enter in your terminal `curl -A "SDSLabs" http://hack.bckdr.in/BRWSR/` and you will get the flag.

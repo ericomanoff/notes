@@ -1,0 +1,7 @@
+# File Reader
+
+
+https://backdoor.sdslabs.co/challenges/FLREAD
+
+
+This challenge is fairly straight forward. We are directed to a page which is just a file directory browser. One page we can go is called viewer.php which allows you to search and view the actual file itself. Trying to find a file called flag.php wont allow you to get the file. However if you view the actual viewer.php, you can see that the viewer is using regex to filter out `../` but it just shortens it to `./`. Thus if you go to viewer.php page and enter `.../flag.php` then you will get the flag yay!

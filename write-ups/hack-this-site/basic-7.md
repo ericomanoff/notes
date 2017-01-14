@@ -1,8 +1,14 @@
-first read the man page for `cal`.
+# Basic 7
 
-Saw nothing interesting. Put in nothing and also a few years to see calendars.
 
-Realized this was simply executing our parameters, so we escaped the command and executed our own by passing
+https://www.hackthissite.org/missions/basic/6/
+
+
+First we read the man page for `cal`.
+
+Saw nothing interesting. We decided to just mess around with the input box and proceeded to enter nothing and also a few years to see the results. We got back calendars.
+
+We realized this was simply executing our parameters, so we escaped the command and executed our own by passing
 
 `2012; ls`
 
@@ -19,4 +25,6 @@ level7.php
 
 Where `k1kh31b1n55h.php` is important, we visited the URL
 
-and got the key = 899643ac
+https://www.hackthissite.org/missions/basic/6/k1kh31b1n55h.php
+
+and got the key = `899643ac`

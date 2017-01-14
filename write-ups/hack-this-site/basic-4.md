@@ -1,6 +1,10 @@
-Viewed source
+# Basic 4
 
-Found the section in the HTML where the button's action was defined
+
+https://www.hackthissite.org/missions/basic/4/
+
+
+Viewed source and found the section in the HTML where the button's action was defined
 
 
 ```
@@ -8,7 +12,7 @@ Found the section in the HTML where the button's action was defined
 ```
 
 
-We than replaced value with our own email. The email we received has the password.
+We inspected the page and replaced `"sam@hackthissite.org"` with our own email. The email we received has the password.
 
 
-Password = f4ba2cc2
+`Password = f4ba2cc2`

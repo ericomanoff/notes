@@ -1,5 +1,9 @@
 # Backdoor Hidden Flag - Medium
 
+
+https://backdoor.sdslabs.co/challenges/HIDE-MEDIUM
+
+
 ## Problem Introduction
 
 The challenge provides a file, and its details are as follows:
@@ -10,7 +14,7 @@ n00b became depressed when 'Pro' found the flag in his binary in a matter of sec
 
 To get this file to even run, we had to instal 32-bit architecture (as running 'file' command on it indicated that it was 32 bit).
 
-Run the file - 
+Run the file -
 
 Stupid message "It's not that easy as you think so"
 
@@ -22,7 +26,7 @@ What functions are there?
 
 Shows a couple of interesting functions: main, and print_flag - hmmm
 
-Cant break at print flag since the application's execution is terminated before it hits.  Therefore, lets break where we KNOW 
+Cant break at print flag since the application's execution is terminated before it hits.  Therefore, lets break where we KNOW
 this program will go - the main() function.
 
 >b main

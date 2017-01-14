@@ -1,0 +1,7 @@
+# Simple Cipher
+
+
+https://backdoor.sdslabs.co/challenges/CPHR
+
+
+This one, although it says easy, is slightly difficult. It uses a keyed caesar with the key as SDSLabs. You can determine this by first trying basic caesar cipher shift, which doesnt work. Then try a keyed version. One of the online encryption cracker I tried couldn't get the key but did determine that the key was of length 7. Thus reading the instructions, and because the challenge was easy, the key was given to us.

@@ -1,0 +1,7 @@
+# Secret Arena
+
+
+https://backdoor.sdslabs.co/challenges/SECR
+
+
+For this challenge you have to recognize that we are getting redirected to a page that is passed in via the url. If you try to access the challenge area you are prompted to enter a user name and password. If you try and are denied then you greeted with an access denied page. Looking at the url we can see that we are being sent to a directory called secure. This means the flag resides in a directory called secure. Also we can recognize that htaccess works by adding a .htaccess file to secure a directory. Thus if we pass in page=secure/.htaccess we get the .htaccess file which contains the username and password hash for access. Running the hash through something like John the ripper we get the password as blood. Yay!

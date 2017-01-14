@@ -1,0 +1,7 @@
+# Authorized Persons Only
+
+
+https://backdoor.sdslabs.co/challenges/CK
+
+
+This challenge is very easy. Going to the link we get an unauthorized message. The hint on the page tells us to look at the cookie. If you inspect the cookie somehow (you can use js by entering `document.cookie`) you will see admin=0. Great! Modify the cookie somehow (again you can use js enter in the console: `admin=1`) and set admin to 1. Refresh the page and yay! you got the flag.

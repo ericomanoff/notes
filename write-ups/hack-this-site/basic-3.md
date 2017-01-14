@@ -1,8 +1,16 @@
-Viewed source, found
-
-<input type="hidden" name="file" value="password.php" />
+# Basic 3
 
 
-When to `https://www.hackthissite.org/missions/basic/3/password.php`
+https://www.hackthissite.org/missions/basic/3/
 
-got 63647ba9
+
+Viewed source and found
+
+`<input type="hidden" name="file" value="password.php" />`
+
+
+Browsed to
+
+ `https://www.hackthissite.org/missions/basic/3/password.php`
+
+and found `63647ba9`

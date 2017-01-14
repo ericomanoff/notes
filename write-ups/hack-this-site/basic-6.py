@@ -1,3 +1,5 @@
+# For https://www.hackthissite.org/missions/basic/6/ 
+
 import sys
 
 
