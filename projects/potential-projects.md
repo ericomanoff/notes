@@ -1,7 +1,6 @@
 | Project Name | Needs Hardware | Time (days) |
 | ------------ | -------------- |-------------|
 | VPN | ? | 1-2 |
-| Doxxing | No | 1+ |
 | Botnet | No | 2+ |
 | Customized Kali ISO | No | 1-2 |
 | Kali on a Pi | No | 1+ |
